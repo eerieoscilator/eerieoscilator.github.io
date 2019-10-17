@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">You learn best by doing</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -12,12 +12,16 @@ layout: default
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          I'm not sure where this is going to end up but hey, let's roll the dice Charles Bukowski style.
+          A classic over-thinker
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
       </li>
     {% endfor %}
   </ul>
+        <p>
+          The thing that suprises me most about myself is how much I think. I thi
+    
+        </p>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
